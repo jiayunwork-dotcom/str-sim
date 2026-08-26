@@ -38,7 +38,7 @@ func OSADistance(a, b string) int {
 			}
 		}
 	}
-	return HoldOSALive(d[la][lb])
+	return d[la][lb]
 }
 
 func Distance(a, b string) int {
